@@ -17,10 +17,10 @@ MONGO_HOST = 'mongodb://localhost:27017/Spyder'  # mongodb host path
 FILE_NAME = ["excitement_tweet2.json","happy_tweet1.json","pleasant_tweet1.json","sad_tweet1.json","fear_tweet1.json","angry_tweet1.json"]  # file name to save
 emotions=[["#excitement","#excited","#astonished"],["#happy","#joy","#love"],["#pleasant","#delighted","#glad","#pleased"],["down","#sad","#frustration","#depressed","#gloomy"],["#fear","#disgust","#depression"],["#angry","#annoyed"]]
 # get key from twitter developer
-consumer_key = 'SoOHCASEdu1zb4LuWdVslYNM1'
-consumer_secret = '88l6hxqA1QJGPx067705ncoPlx7YcLa7p65oscYrhtPQ0kMNY8'
-access_token = '1230590123705819136-z0lgV7Zae5k0EvoROpypCHPEo3abOJ'
-access_secret = '51rgD4an0Qc64dh4kmTCAttT2K8WIeLinxgTDr5m67DH0'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 
 auth = OAuthHandler(consumer_key,consumer_secret)
